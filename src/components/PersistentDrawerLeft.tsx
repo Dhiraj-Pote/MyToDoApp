@@ -183,7 +183,7 @@ export default function PersistentDrawerLeft(props: any) {
                     <Typography
                       variant="h6"
                       noWrap
-                      style={{ flexGrow: 1, cursor: "pointer" }}
+                      style={{ flexGrow: 1, cursor: "pointer", display: "flex", justifyContent: "center", alignItems: "center" }}
                     >
                       My Todo App
                     </Typography>
